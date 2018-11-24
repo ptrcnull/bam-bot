@@ -1,8 +1,7 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
-const config = require('./config.json')
 
-client.login(config.token).then(() => {
+client.login(process.env.TOKEN).then(() => {
   console.log('Logged in!')
   client.user.setActivity('for !bam', { type: 'WATCHING' })
   client.on('message', message => {
