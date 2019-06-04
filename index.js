@@ -10,7 +10,7 @@ client.login(process.env.TOKEN).then(() => {
       message.channel.send({
         files: [
           {
-            attachment: 'https://cdn.discordapp.com/attachments/456818557519659011/496761562850131978/unknown.png',
+            attachment: 'https://static.bjorn.ml/lgtbam.png',
             name: 'bam.png'
           }
         ]
